@@ -1,4 +1,4 @@
-baseURL = 'https://smpentecost.github.io/'
+baseURL = 'https://smpentecost.github.io/blog'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "PaperMod"
