@@ -1,0 +1,10 @@
+baseURL: 'https://www.seeleypentecost.com'
+languageCode: 'en-us'
+title: 'Seeley Pentecost Blog'
+theme: "PaperMod"
+
+params:
+    homeInfoParams:
+        Title: Welcome to my blog!
+        Content: It's where I post things.
+
