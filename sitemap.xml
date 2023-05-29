@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://www.seeleypentecost.com/post/2023-05-29-new-blog/</loc><lastmod>2023-05-29T15:09:10+00:00</lastmod></url><url><loc>https://www.seeleypentecost.com/post/</loc><lastmod>2023-05-29T15:09:10+00:00</lastmod></url><url><loc>https://www.seeleypentecost.com/</loc><lastmod>2023-05-29T15:09:10+00:00</lastmod></url><url><loc>https://www.seeleypentecost.com/categories/</loc></url><url><loc>https://www.seeleypentecost.com/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.seeleypentecost.com/posts/2023-05-29-my-new-post/</loc>
+    <lastmod>2023-05-29T17:17:26+00:00</lastmod>
+  </url><url>
+    <loc>https://www.seeleypentecost.com/posts/</loc>
+    <lastmod>2023-05-29T17:17:26+00:00</lastmod>
+  </url><url>
+    <loc>https://www.seeleypentecost.com/</loc>
+    <lastmod>2023-05-29T17:17:26+00:00</lastmod>
+  </url><url>
+    <loc>https://www.seeleypentecost.com/posts/2023-05-29-new-blog/</loc>
+    <lastmod>2023-05-29T17:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://www.seeleypentecost.com/categories/</loc>
+  </url><url>
+    <loc>https://www.seeleypentecost.com/tags/</loc>
+  </url>
+</urlset>
