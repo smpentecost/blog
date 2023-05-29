@@ -29,3 +29,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # Permission to write added
           publish_dir: ./public
+          cname: seeleypentecost.com
