@@ -8,25 +8,33 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@master
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@master
         with:
           hugo-version: 'latest'
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --gc 
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload Artifact
+        uses: actions/upload-artifact@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # Permission to write added
-          publish_dir: ./public
-          cname: www.seeleypentecost.com
+          name: website
+          path: './public'
+
+      
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }} # Permission to write added
+      #     publish_dir: ./public
+      #     cname: www.seeleypentecost.com
