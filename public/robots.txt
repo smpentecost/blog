@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /
-Sitemap: https://www.seeleypentecost.com/sitemap.xml
