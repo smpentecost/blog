@@ -42,12 +42,3 @@ jobs:
       - name: Deploy to Github Pages
         id: deployment
         uses: actions/deploy-pages@v2
-          
-
-      
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }} # Permission to write added
-      #     publish_dir: ./public
-      #     cname: www.seeleypentecost.com
